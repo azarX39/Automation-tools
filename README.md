@@ -1,0 +1,2 @@
+This repo I have made to develop an automation tool that includes features for sending notifications of results to platforms like Telegram and other platforms. Additionally, I will soon add automation tools that work with various tools used in pentesting to streamline the bug detection process and reduce the time required. I hope you find it valuable, and I would greatly appreciate your positive feedback.
+
