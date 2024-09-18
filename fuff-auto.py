@@ -14,9 +14,9 @@ def sanitize_target_name(Target_Name):
 output =  f"{sanitize_target_name(Target_Name)}.txt"
 # Function to send message to Telegram
 def send_telegram_message(token, chat_id, message):
-    url = f"https://api.telegram.org/bot7267541680:AAHnZy_B8oQ9jahy99GW1mUmjsma5P45qSY/sendMessage"
+    url = f"https://api.telegram.org/bot{token}"
     data = {
-        "chat_id": 986565654,
+        "chat_id": chat_id,
         "text": message
     }
     response = requests.post(url, data=data)
