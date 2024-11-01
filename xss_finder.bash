@@ -4,7 +4,7 @@
 # It performs the following functions:
 
 # Usage:
-# - Ensure that `subdomains.txt`, `parameters.json`, and `xss_payloads.txt` are prepared with the necessary data.
+# - Ensure that `subdomains.txt`, `parameters.txt`, and `xss_payloads.txt` are prepared with the necessary data.
 # - Execute the script in a Bash environment to perform the tests.
 
 for one_domain in $(cat subdomains.txt); do
