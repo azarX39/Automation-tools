@@ -1,7 +1,0 @@
-This python code to create html file to test csrf.
-
-you should enter :
-1..endpoint that wnat to test
-2.your ip to listen
-3.method (GET/POST)
-4.data type (JSON/x-www-form-urlencoded) if POST request
